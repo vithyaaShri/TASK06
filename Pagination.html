@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title for Page-->
+    <title>Pagination in Java</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--Reference to Stylesheet .css file-->
+    <link rel="stylesheet" href="Pagination.css">
+</head>
+<body>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <div class="table-responsive">
+    <!--H1 tag to display Table heading and Description of table-->
+        <h1 id="title" class="table table-bordered">EMPLOYEE DETAILS</h1>
+        <p id="description" class="table">This table contains details of Employees</p>
+    <!--Table that Display Emplyee Details-->
+    <table class="table table-bordered">
+        <thead class="table table-bordered">
+            <tr class="table table-bordered">
+                <th class="table table-bordered">EmpId</th>
+                <th>EmpName</th>
+                <th>EmpEmail</th>
+            </tr>
+        </thead>
+        <tbody >
+        </tbody>
+    </table>
+    <div id="buttons" class="d-flex justify-content-center" ></div>
+
+<div class="footer">
+    <span>showing 1 to 10 of 100 entries</span>
+    <div class="index_button"></div>
+</div>
+</div>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!--JavaScript File-->
+<script src="Pagination.js"></script>    
+</body>
+</html>

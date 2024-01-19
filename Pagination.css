@@ -1,0 +1,76 @@
+body{
+    background:linear-gradient(to top,blue,grey,black);/*Have used Gradients to color the Background*/
+    color:white;
+    letter-spacing: 1.5px;
+    display:flex;                                           /*Have used Flex to Display the Content*/
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;                                     /*Aligned The heading Text To center*/
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    margin-bottom: 10px;                                    /*Margin bottom to include space at the bottom of text*/
+    padding-bottom: 10px;
+    color: blue;
+}
+.table-responsive{
+    width:100%;                                                /* Table Width to the fullest*/
+    height:50%;
+    padding:15px 15px;
+    margin: 30px 30px;
+    border-radius: 30%;
+    
+}
+table{
+    width:100%;
+    border-collapse: collapse;  
+    
+}
+
+th,td{
+    font-weight: bold;
+    cursor:pointer;
+    padding: 15px 15px;
+    border : 1px solid whitesmoke;
+    letter-spacing: 0.2px;
+    text-align: center;
+    border-collapse: collapse;                                      /* Join the Gap in Border*/
+    
+
+}
+th{
+    font-size: 21px;
+    background-color: #454545;
+}    
+tr{
+    font-size: 21px;
+    background-color: #303030;
+}
+/* Change the Color When Hover Over*/
+tr:hover{
+    background-color: black;
+}
+/* display Buttons in Footer*/
+.footer{
+    margin-top: 30px;
+    font-size:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*  Property For Button*/
+button{
+    padding:7px 15px;
+    color:white;
+    background-color: transparent;
+    font-size:20px;
+    cursor: pointer;
+}
+/*  change When Button is Active*/
+button:active,button:hover,.active{
+    background: linear-gradient(to bottom,#9c9c9c,#111)
+}
